@@ -1,11 +1,11 @@
 # Diego Orellana - CoreCode Bootcamp 🚀
 ## Week 7
 ## Monday Challenges
-- [String: substr()]()
-- [String: replace()]()
-- [Increment]()
-- [Fahrenheit]()
-- [Boolean]()
+- [String: substr()](https://github.com/DiegoMGE/-core-code-from-scratch-readme-week-7/blob/main/README.md#string-substr)
+- [String: replace()](https://github.com/DiegoMGE/-core-code-from-scratch-readme-week-7/blob/main/README.md#string-replace)
+- [Increment](https://github.com/DiegoMGE/-core-code-from-scratch-readme-week-7/blob/main/README.md#increment)
+- [Fahrenheit](https://github.com/DiegoMGE/-core-code-from-scratch-readme-week-7/blob/main/README.md#fahrenheit)
+- [Boolean](https://github.com/DiegoMGE/-core-code-from-scratch-readme-week-7/blob/main/README.md#boolean)
 
 ### String: substr()
 Write a function firstWord, taking a string and returning the first word in that string. The first word are all characters up to the first space.
