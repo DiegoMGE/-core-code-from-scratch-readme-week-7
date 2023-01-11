@@ -7,6 +7,11 @@
 - [Fahrenheit](https://github.com/DiegoMGE/-core-code-from-scratch-readme-week-7/blob/main/README.md#fahrenheit)
 - [Boolean](https://github.com/DiegoMGE/-core-code-from-scratch-readme-week-7/blob/main/README.md#boolean)
 
+## Tuesday Challenges
+- [Objects]()
+- [Return to sanity]()
+- [Object syntax debug]()
+
 ### String: substr()
 Write a function firstWord, taking a string and returning the first word in that string. The first word are all characters up to the first space.
 ```javascript
@@ -56,4 +61,52 @@ function nad(a, b) {
     }
 }
 console.log(nad(true, false));
+```
+
+### Objects 
+```javascript
+let obj = {
+    name: 'dog',
+    legs: 4,
+    color: 'white'
+};
+
+function animal(obj) {
+    return "This " + obj.color + " " + obj.name + " has " + obj.legs + " legs."
+}
+
+console.log(animal(obj)); // This white dog 4 has 4 legs.
+```
+
+### Return to Sanity
+```javascript
+function mystery() {
+    var results = {
+        sanity: 'Hello'
+    };
+    return results;
+  }
+console.log(mystery());
+```
+
+### Object Syntax Debug
+```javascript
+var rooms = {
+    first: {
+      description: 'This is the first room',
+      items: {
+        chair: 'The old chair looks comfortable',
+        lamp: 'This lamp looks ancient'
+    }
+},
+    second: {
+      description: 'This is the second room',
+      items: {
+        couch: 'This couch looks like it would hurt your back',
+        table: 'On the table there is an unopened bottle of water'
+      }
+    },
+}
+
+console.log(rooms);
 ```
