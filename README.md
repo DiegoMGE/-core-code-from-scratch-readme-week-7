@@ -8,9 +8,9 @@
 - [Boolean](https://github.com/DiegoMGE/-core-code-from-scratch-readme-week-7/blob/main/README.md#boolean)
 
 ## Tuesday Challenges
-- [Objects]()
-- [Return to sanity]()
-- [Object syntax debug]()
+- [Objects](https://github.com/DiegoMGE/core-code-from-scratch-readme-week-7/blob/main/README.md#objects)
+- [Return to sanity](https://github.com/DiegoMGE/core-code-from-scratch-readme-week-7/blob/main/README.md#return-to-sanity)
+- [Object syntax debug](https://github.com/DiegoMGE/core-code-from-scratch-readme-week-7/blob/main/README.md#object-syntax-debug)
 
 ### String: substr()
 Write a function firstWord, taking a string and returning the first word in that string. The first word are all characters up to the first space.
