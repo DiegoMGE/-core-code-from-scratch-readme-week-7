@@ -12,6 +12,11 @@
 - [Return to sanity](https://github.com/DiegoMGE/core-code-from-scratch-readme-week-7/blob/main/README.md#return-to-sanity)
 - [Object syntax debug](https://github.com/DiegoMGE/core-code-from-scratch-readme-week-7/blob/main/README.md#object-syntax-debug)
 
+## Wednesday Challenges
+- [Count strings in objects]()
+- [Extending JavaScript Objects: Get First & Last Array Element]()
+- [Object Oriented Piracy]()
+
 ### String: substr()
 Write a function firstWord, taking a string and returning the first word in that string. The first word are all characters up to the first space.
 ```javascript
@@ -109,4 +114,70 @@ var rooms = {
 }
 
 console.log(rooms);
+```
+
+### Count strings in object
+```javascript
+let obj = {
+  first: '1',
+  second: '2',
+  third: false,
+  fourth: ['anytime', 2,3,4],
+  fifth: null
+};
+
+function strCount(obj) {
+  let strings = 0;
+
+  for (let i in obj) {
+    let value = obj[i];
+
+    if (typeof value === 'string') {
+      strings += 1;
+    }
+    if (typeof value === 'object') {
+      strings += strCount(obj[i]);
+    }
+  }
+  return strings;
+}
+
+console.log(strCount(obj));
+```
+
+### Extending JavaScript Objects
+```javascript
+var a = [2, 5, 7, 3 ,4];
+
+Array.prototype.first = function() {
+  return this[0]
+}
+Array.prototype.last = function() {
+  return this[this.length - 1];
+}
+
+console.log(a.first());
+console.log(a.last());
+```
+
+### Object Orientes Piracy
+```javascript
+let titanic = new Ship(35, 20);
+console.log(titanic.isWorthIt());
+
+function Ship(draft, crew) {
+    this.draft = draft;
+    this.crew = crew;
+    this.isWorthIt = () => {
+      let weightCrew = crew * 1.5;
+      let totalWeight = draft - weightCrew;
+      console.log('Total ship weight: ', totalWeight);
+      
+      if (totalWeight > 20) {
+        return true;
+      } else {
+        return false;
+      }
+    }
+  }
 ```
