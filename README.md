@@ -13,9 +13,9 @@
 - [Object syntax debug](https://github.com/DiegoMGE/core-code-from-scratch-readme-week-7/blob/main/README.md#object-syntax-debug)
 
 ## Wednesday Challenges
-- [Count strings in objects]()
-- [Extending JavaScript Objects: Get First & Last Array Element]()
-- [Object Oriented Piracy]()
+- [Count strings in objects](https://github.com/DiegoMGE/core-code-from-scratch-readme-week-7/blob/main/README.md#count-strings-in-object)
+- [Extending JavaScript Objects: Get First & Last Array Element](https://github.com/DiegoMGE/core-code-from-scratch-readme-week-7/blob/main/README.md#extending-javascript-objects)
+- [Object Oriented Piracy](https://github.com/DiegoMGE/core-code-from-scratch-readme-week-7/blob/main/README.md#object-orientes-piracy)
 
 ### String: substr()
 Write a function firstWord, taking a string and returning the first word in that string. The first word are all characters up to the first space.
