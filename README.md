@@ -17,6 +17,12 @@
 - [Extending JavaScript Objects: Get First & Last Array Element](https://github.com/DiegoMGE/core-code-from-scratch-readme-week-7/blob/main/README.md#extending-javascript-objects)
 - [Object Oriented Piracy](https://github.com/DiegoMGE/core-code-from-scratch-readme-week-7/blob/main/README.md#object-orientes-piracy)
 
+## Thursday Challenges
+- [Convert a String to a Number!]()
+- [Convert number to reversed array of digits]()
+- [Truthy and Falsy]()
+- [Training JS #4: basic data types--Array]()
+
 ### String: substr()
 Write a function firstWord, taking a string and returning the first word in that string. The first word are all characters up to the first space.
 ```javascript
@@ -180,4 +186,59 @@ function Ship(draft, crew) {
       }
     }
   }
+```
+
+### Convert a String to a Number!
+```javascript
+const stringToNumber = function(str){
+  return Number(str)
+  return null;
+}
+```
+
+### Convert number to reversed array of digits
+```javascript
+function digitize(n) {
+  let numbers = Array.from(String(n), Number);
+  let reverseNumbers = [];
+    
+  for (let i = numbers.length - 1; i >= 0; i--) {
+    reverseNumbers.push(numbers[i]);
+    console.log(i);
+  }
+  return reverseNumbers;
+}
+```
+
+### Truthy and Falsy
+```javascript
+const truthy = [true, [], 3, 4, 'test'];
+const falsy = ['', undefined, null, false, 0, NaN];
+```
+
+### Training JS #4: basic data types--Array
+```javascript
+function getLength(arr){
+  //return length of arr
+  return arr.length;
+}
+function getFirst(arr){
+  //return the first element of arr
+  return arr[0]
+}
+function getLast(arr){
+  //return the last element of arr
+  return arr[arr.length - 1];
+}
+function pushElement(arr){
+  var el=1;
+  //push el to arr
+  arr.push(el);
+  return arr
+}
+function popElement(arr){
+  //pop an element from arr
+  arr.pop();
+  return arr
+}
 ```
