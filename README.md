@@ -18,10 +18,10 @@
 - [Object Oriented Piracy](https://github.com/DiegoMGE/core-code-from-scratch-readme-week-7/blob/main/README.md#object-orientes-piracy)
 
 ## Thursday Challenges
-- [Convert a String to a Number!]()
-- [Convert number to reversed array of digits]()
-- [Truthy and Falsy]()
-- [Training JS #4: basic data types--Array]()
+- [Convert a String to a Number!](https://github.com/DiegoMGE/core-code-from-scratch-readme-week-7/blob/main/README.md#convert-a-string-to-a-number)
+- [Convert number to reversed array of digits](https://github.com/DiegoMGE/core-code-from-scratch-readme-week-7/blob/main/README.md#convert-number-to-reversed-array-of-digits)
+- [Truthy and Falsy](https://github.com/DiegoMGE/core-code-from-scratch-readme-week-7/blob/main/README.md#truthy-and-falsy)
+- [Training JS #4: basic data types--Array](https://github.com/DiegoMGE/core-code-from-scratch-readme-week-7/blob/main/README.md#training-js-4-basic-data-types--array)
 
 ### String: substr()
 Write a function firstWord, taking a string and returning the first word in that string. The first word are all characters up to the first space.
